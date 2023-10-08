@@ -1,0 +1,12 @@
+{
+    "os":{
+        "cpu":"",
+        "gpu":"",
+        "system":"",
+        "python_version":""
+    },
+    "train":{
+        "epoch":0
+        
+    }
+}
