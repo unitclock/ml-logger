@@ -4,6 +4,7 @@ import (
 	"C"
 )
 import (
+	_ "unitclock/ml-logger/config"
 	"unitclock/ml-logger/server/controller"
 
 	"github.com/gin-gonic/gin"

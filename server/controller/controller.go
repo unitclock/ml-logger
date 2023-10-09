@@ -101,7 +101,7 @@ func Save(ctx *gin.Context) {
 }
 
 func Ping(ctx *gin.Context) {
-	ctx.String(http.StatusOK, "Pong")
+	ctx.String(http.StatusOK, "pong")
 }
 
 func Log(ctx *gin.Context) {

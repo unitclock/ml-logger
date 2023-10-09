@@ -7,8 +7,6 @@
 
     "project_local_path":"/home/lord/Desktop/work/ml-logger",
 
-    "api_addr":"https://localhost:10001",
-
     "log_path":"log_path",
 
     "path_ignore":[
