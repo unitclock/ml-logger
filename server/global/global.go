@@ -1,6 +1,6 @@
 package global
 
-type Binding struct {
+type Record struct {
 	AccessToken  string               `json:"name" form:"name"`
 	ProjectId    string               `json:"project_id" form:"name"`
 	ExperimentId string               `json:"experiment_id" form:"name"`
@@ -10,7 +10,7 @@ type Binding struct {
 	Resource     []map[string]float32 `json:"resource" form:"name"`
 }
 
-func (b *Binding) AddTrainning() {}
-func (b *Binding) AddResource()  {}
+func (b *Record) AddTrainning() {}
+func (b *Record) AddResource()  {}
 
-var B *Binding
+var R *Record
