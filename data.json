@@ -1,12 +1,37 @@
 {
+    "access_token":"",
+    "project_id":"",
     "os":{
         "cpu":"",
         "gpu":"",
         "system":"",
         "python_version":""
     },
-    "train":{
-        "epoch":0
+    "trainning":[
+        {
+            "acc":0.1,
+            "loss":0.1
+        },
+        {
+            "acc":0.1,
+            "loss":0.1
+        }
+    ],
+    "resource":[
+        {
+            "process_cpu_usage":0.1,
+            "process_memory_usage":2000,
+            "process_gpu_core_usage":0.2,
+            "process_gpu_memory_usage":2000
+        },
+        {
+            "process_cpu_usage":0.1,
+            "process_memory_usage":2000,
+            "process_gpu_core_usage":0.2,
+            "process_gpu_memory_usage":2000
+        }
+    ],
+    "analysis":{
         
     }
 }

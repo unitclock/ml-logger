@@ -1,11 +1,15 @@
 {
-    "access_token":"1082bf45-7d5e-1130-b3fd-e52cec6b5762",
+    "access_token":"access_token",
 
-    "project_id":"fe8f3361-feee-9ba8-0027-6669cebd7459",
+    "experiment_id":"experiment_id", 
+
+    "project_id":"project_id",
+
+    "project_local_path":"/home/lord/Desktop/work/ml-logger",
 
     "api_addr":"https://localhost:10001",
 
-    "log_path":"./log_path/",
+    "log_path":"log_path",
 
     "path_ignore":[
 
