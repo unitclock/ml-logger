@@ -23,12 +23,18 @@ func Server() {
 	r.GET("/ping", controller.Ping)
 	r.GET("/save", controller.Save)
 	r.POST("/log", controller.Log)
+	r.POST("/os", controller.Os)
 	r.Run(":30001")
 }
 
 //export Init
 func Init() {
 	go Server()
+}
+
+// export Os
+func Os() {
+
 }
 
 //export Log

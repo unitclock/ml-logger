@@ -1,37 +1,40 @@
 {
-    "access_token":"",
-    "project_id":"",
-    "os":{
-        "cpu":"",
-        "gpu":"",
-        "system":"",
-        "python_version":""
+    "access_token": "",
+    "project_id": "",
+    "experiment_id":"",
+    "os": {
+        "plantform": "Linux-6.2.0-34-generic-x86_64-with-glibc2.35",
+        "system": "Linux",
+        "python_version": "3.10.13",
+        "architecture": "64bit",
+        "processor": "x86_64",
+        "cpu_logical_count": 6,
+        "cpu_count": 6,
+        "memory": 272603.46368
     },
-    "trainning":[
+    "trainning": [
         {
-            "acc":0.1,
-            "loss":0.1
+            "acc": 0.1,
+            "loss": 0.1
         },
         {
-            "acc":0.1,
-            "loss":0.1
+            "acc": 0.1,
+            "loss": 0.1
         }
     ],
-    "resource":[
+    "resource": [
         {
-            "process_cpu_usage":0.1,
-            "process_memory_usage":2000,
-            "process_gpu_core_usage":0.2,
-            "process_gpu_memory_usage":2000
+            "process_cpu_usage": 0.1,
+            "process_memory_usage": 2000,
+            "process_gpu_core_usage": 0.2,
+            "process_gpu_memory_usage": 2000
         },
         {
-            "process_cpu_usage":0.1,
-            "process_memory_usage":2000,
-            "process_gpu_core_usage":0.2,
-            "process_gpu_memory_usage":2000
+            "process_cpu_usage": 0.1,
+            "process_memory_usage": 2000,
+            "process_gpu_core_usage": 0.2,
+            "process_gpu_memory_usage": 2000
         }
     ],
-    "analysis":{
-        
-    }
+    "analysis": {}
 }
